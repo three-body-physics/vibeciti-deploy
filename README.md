@@ -8,7 +8,7 @@ https://vibeciti.herokuapp.com/
 
 > ./home.ejs 
 
-> are for backup, entry point can be found at:
+are for backup, entry point can be found at:
 
 > ./static/home.ejs
 
