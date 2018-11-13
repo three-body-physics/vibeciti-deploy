@@ -16,4 +16,4 @@ are for backup, entry point can be found at:
 
 > $ npm install
 
-> $ npm run dev
+> $ node app.js
