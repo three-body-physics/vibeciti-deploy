@@ -8,7 +8,7 @@ https://vibeciti.herokuapp.com/
 
 ./home.ejs 
 
-are for backup, actually landing page can be found at:
+are for backup, landing page can be found at:
 
 ./static/home.ejs
 
