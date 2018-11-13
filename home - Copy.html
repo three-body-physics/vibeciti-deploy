@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+
+<link rel="stylesheet" type="text/css" href="vibeciti.css">	
+<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="left-column">
+	
+	<div id="playlist-text">
+		<p>Playlist - <span>0</span> Tracks Loaded</p>
+	</div>
+
+</div>
+<div id="main-container">
+
+	
+		<div id="navbar">
+			<div id="logo">
+
+			<h4><SPAN>V</SPAN>IBE<span>C</span>ITI</h4>
+
+			</div>
+			
+			<div id="navlinks">
+			</div>
+
+			
+		</div>
+
+
+	<div id="mainscreen">
+
+
+		<div id="play-area">
+		<!-- <div id="play-area-filter"></div> -->
+
+
+		<div id="play-area-overlay">
+
+		<div class="jukebox carrier" id="jukebox-one" data-track="1"></div>
+		<div class="jukebox carrier" id="jukebox-two" data-track="2"></div>
+		<div class="jukebox carrier" id="jukebox-three" data-track="3"></div>
+		<div class="jukebox carrier" id="jukebox-four" data-track="4"></div>
+		<div class="jukebox carrier" id="jukebox-five" data-track="5"></div>	
+
+	
+		</div>
+
+
+
+		</div>
+	</div>
+
+	<div id="playlist-container">
+		<div id="color-block"></div>
+		<div id="chat-window"></div>
+		<div id="about-column">
+			<div id="sub-title">
+				<h4>Music . Visual. Equalizer</h4>
+				<h2>Welcome to VibeCiti. Pair your favorite songs with beautiful visuals.</h2>
+			</div>
+
+			<div id="text-body">
+				<div>
+					<p>Select a music track from the window above or the list down below to get started. You can chat with others or join one of the rooms to listen to a stream.</p>
+				</div>
+				<div></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="play-screen">
+		<div class="play-screen-wrapper">
+			<div class="canvas" id="sheet"><button id="closebutton">Close</button><button id="changeSong">Change</button><!-- <canvas id="analyser"></canvas> --></div>
+		</div>
+	</div>
+
+	<button id="testbutton">test button</button>
+
+	<div class="frame-container">
+
+		<div>
+
+			<div id="img-1-3" class="col-3 image-anchor">
+				<a class="nounderline" href="#">
+					<div class="text-overlay">
+						<h2>Nevada</h2>
+					</div>
+					<div class="image-overlay">					
+					</div>
+				</a>
+			</div>	
+
+			<div id="img-1-5" class="col-5 image-anchor" >
+				<a class="nounderline" href="#">
+					<div class="text-overlay">						
+						<h2>Feint Words</h2>
+					</div>
+					<div class="image-overlay">						
+					</div>
+				</a>
+			</div>
+
+			<div id="img-1-2" class="col-2 image-anchor">
+				<a class="nounderline" href="#">
+					<div class="text-overlay">
+						<h2>Lala</h2>
+					</div>
+					<div class="image-overlay">						
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+
+
+
+
+
+		<div>
+			<div id="img-2-4" class="col-4 image-anchor"><div class="image-overlay"><div class="text-overlay"></div></div></div>
+			<div id="img-2-6" class="col-6 image-anchor"><div class="image-overlay"><div class="text-overlay"></div></div></div>
+		</div>
+		
+		<div>
+			<div id="img-3-3" class="col-3 image-anchor"><div class="image-overlay"><div class="text-overlay"></div></div></div>
+			<div id="img-3-2" class="col-2 image-anchor">
+				<div class="image-half">
+					<div class="image-overlay">
+						<div class="text-overlay"></div>
+					</div>
+				</div>
+				<div class="image-half-smaller">
+					<div class="image-overlay">
+						<div class="text-overlay"></div>
+					</div>
+				</div>
+			</div>
+
+			<div id="img-3-5" class="col-5 image-anchor"><div class="image-overlay"><div class="text-overlay"></div></div></div>
+		</div>
+		<div>
+			<div id="img-4-6" class="col-6 image-anchor"><div class="image-overlay"><div class="text-overlay"></div></div></div>
+			<div id="img-4-4" class="col-4 image-anchor"><div class="image-overlay"><div class="text-overlay"></div></div></div>
+		</div>
+	</div>
+
+
+
+<div id="compose-bar">
+	<div id="button-holder">
+		<div class="block-button"><h3>Compose</h3></div>
+		<h1>Let's make a custom track!</h1>
+	</div>
+	
+</div>
+
+<footer></footer>
+
+<div id="right-column">
+	
+	<div id="Countdown">
+
+		<p>Queue</p>
+		<p>0</p>
+		<p>Minutes</p>
+		<p>0</p>
+		<p>Seconds</p>
+		<p>0</p>
+
+	</div>
+
+</div>
+
+<script type="text/javascript" src="classie.js"></script>
+<!-- <script type="text/javascript" src="layoutbuilder.js"></script> -->
+<script type="text/javascript" src="vibeciti.js"></script>
+
+
+
+</body>
+</html>
