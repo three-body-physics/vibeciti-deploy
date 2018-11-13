@@ -5,6 +5,7 @@ https://vibeciti.herokuapp.com/
 ## Note
 
 ./home - Copy.html
+
 ./home.ejs 
 
 are for backup, actually landing page can be found at:
@@ -14,4 +15,5 @@ are for backup, actually landing page can be found at:
 ## Testing
 
 $ npm install
+
 $ npm run dev
