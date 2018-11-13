@@ -4,16 +4,16 @@ https://vibeciti.herokuapp.com/
 
 ## Note
 
-./home - Copy.html
+> ./home - Copy.html
 
-./home.ejs 
+> ./home.ejs 
 
-are for backup, landing page can be found at:
+> are for backup, entry point can be found at:
 
-./static/home.ejs
+> ./static/home.ejs
 
 ## Testing
 
-$ npm install
+> $ npm install
 
-$ npm run dev
+> $ npm run dev
